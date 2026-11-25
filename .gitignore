@@ -1,4 +1,5 @@
 *.o
 *.sym
 *.bin
+build/
 *.hdd
