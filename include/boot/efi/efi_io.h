@@ -20,8 +20,7 @@
  * IN THE SOFTWARE.
  */
 
-#ifndef EFI_EFIIO_H
-#define EFI_EFIIO_H 1
+#pragma once
 
 #include "efi_types.h"
 #include <stdbool.h>
@@ -60,4 +59,3 @@ struct EfiSimpleTextOutputProtocol {
   // ...
 };
 
-#endif

@@ -20,11 +20,8 @@
  * SOFTWARE.
  */
 
-#ifndef EFI_H
-#define EFI_H 1
+#pragma once
 
 #include "efi_defs.h"
 #include "efi_io.h"
 #include "efi_types.h"
-
-#endif

@@ -20,8 +20,7 @@
  * SOFTWARE.
  */
 
-#ifndef EFI_EFITYPES_H
-#define EFI_EFITYPES_H 1
+#pragma once
 
 #include <stddef.h>
 #include <stdint.h>
@@ -31,5 +30,3 @@
 typedef uint64_t EfiStatus;
 typedef void *EfiHandle;
 typedef void *EfiEvent;
-
-#endif

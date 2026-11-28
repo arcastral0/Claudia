@@ -20,8 +20,7 @@
  * SOFTWARE.
  */
 
-#ifndef EFI_EFIDEFS_H
-#define EFI_EFIDEFS_H 1
+#pragma once
 
 #include "efi.h"
 #include "efi_io.h"
@@ -48,4 +47,3 @@ typedef struct {
   // ...
 } EfiSystemTable;
 
-#endif
