@@ -1,7 +1,7 @@
 CC			:= clang
 CFLAGS		:= -target x86_64-unknown-windows -ffreestanding -fshort-wchar -mno-red-zone -nostdlib
 LD			:= lld-link
-LDFLAGS		:= -subsystem:efi_application -entry:efi_main
+LDFLAGS		:= -subsystem:efi_application -entry:efiMain
 
 BUILD_DIR 	:= build
 ISO_DIR		:= $(BUILD_DIR)/iso
