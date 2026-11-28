@@ -7,9 +7,9 @@ BUILD_DIR 	:= build
 ISO_DIR		:= $(BUILD_DIR)/iso
 
 EFI_BIN		:= $(BUILD_DIR)/BOOTX64.EFI
-FAT_IMG		:= $(BUILD_DIR)/Claudia.img
+FAT_IMG		:= $(BUILD_DIR)/Syenite.img
 
-OS_IMAGE	?= $(ISO_DIR)/Claudia.iso
+OS_IMAGE	?= $(ISO_DIR)/Syenite.iso
 
 include boot/module.mk
 
