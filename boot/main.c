@@ -26,7 +26,7 @@ EfiStatus efiMain(EfiHandle ImageHandle, EfiSystemTable *SystemTable) {
   EfiStatus Status;
   EfiSystemTable *ST = SystemTable;
 
-  Status = ST->ConOut->OutputString(ST->ConOut, u"Claudia Bootloader\r\n");
+  Status = ST->ConOut->OutputString(ST->ConOut, u"Syenite Bootloader\r\n");
 
   while (1) {
     __asm__("hlt");
